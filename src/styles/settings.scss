@@ -1,0 +1,36 @@
+/// -------------------------------------
+///   Colors
+/// -------------------------------------
+
+$main-color: #000;
+$sec-color: #fff;
+$background-color: #fff;
+
+/// -------------------------------------
+///   z-Index
+/// -------------------------------------
+
+$z-galaxy: 9000;
+$z-sun: 1000;
+$z-moon: 500;
+$z-sky: 100;
+$z-roof: 10;
+$z-ground: 1;
+$z-zero: 0;
+$z-hole: -1;
+$z-hell: -9000;
+
+/// -------------------------------------
+///   Breakpoints & Grid
+/// -------------------------------------
+
+$isResponsiveGrid: true;
+$breakpoints: (
+  'phone': 375px,
+  'tablet': 768px,
+  'tablet-l': 1024px,
+  'tablet-xxl': 1367px,
+  'desktop': 1600px,
+  'desktop-l': 1920px,
+  'desktop-xxl': 2260px,
+) !default;
